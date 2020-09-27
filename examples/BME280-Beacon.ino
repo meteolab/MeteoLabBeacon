@@ -5,30 +5,33 @@
 #include <Adafruit_BME280.h>
 
 /*
-  ----------------------    -----------------
-  |GND CE  SCK  MISO|  |    |VIN GND SCL SDA|
-  |VCC CSN MOSI IRQ |  |    |               |
-  |-----------------   |    |               |
-  |                    |    |               |
-  |                    |    |               |
-  |                    |    |               |
-  |                    |    |               |
-  |                    |    |               |
-  |      (((*)))       |    |               |
-  ----------------------    -----------------
-      nRF24L01+ pins           BME280 pins
+      a) nRF24L01+              b) BME280
+      --------------------      ---------------
+     |GND CE  SCK  MISO|  |    |VIN GND SCL SDA|
+     |VCC CSN MOSI IRQ |  |    |---------------|
+     |-----------------   |    |               |
+     |                    |    |               |
+     |                    |    |               |
+     |                    |    |               |
+     |                    |    |               |
+     |                    |    |               |
+     |      (((*)))       |    |               |
+      --------------------      ---------------
+
+ Figure. Pin layout on modules nRF24L01+(a) and BME280(b)
 
 
+ Table. Modules connecting circuit
  --------------------------------------------------
 |  nRF24L01+ |  Arduino   Arduino  Arduino         |
 |            |  Uno/Nano  Mega     Leonardo/Micro  |
  --------------------------------------------------
 |  GND       |  GND       GND      GND             |
 |  CE        |  9         9        9               |
-|  SCK       |  13        13       13              |
-|  MISO      |  12        12       12              |
-|  IRQ       |  2         2        2               |
-|  MOSI      |  11        11       11              |
+|  SCK       |  13        52       ICSP-3          |
+|  MISO      |  12        50       ICSP-1          |
+|  IRQ       |  -         -        -               |
+|  MOSI      |  11        51       ICSP-4          |
 |  CSN       |  10        10       10              |
 |  VCC       |  3V3       3V3      3V3             |
  --------------------------------------------------
