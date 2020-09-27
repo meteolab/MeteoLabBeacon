@@ -17,7 +17,6 @@
      |                    |    |               |
      |      (((*)))       |    |               |
       --------------------      ---------------
-
  Figure. Pin layout on modules nRF24L01+(a) and BME280(b)
 
 
