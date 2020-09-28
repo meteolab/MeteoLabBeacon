@@ -1,15 +1,16 @@
 /*
- * Copyright (C) 2020 MeteoLab LLC <vladimir.chukin@meteolab.org>
+ * Copyright (C) 2020 MeteoLab LLC <hello@meteolab.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
  * version 3 as published by the Free Software Foundation.
  *
  * The library is based on code by
- *  2012 Dmitry Grinberg
- *  2013 Florian Echtler
- *  2019 Pawel Hernik
+ *  2012 Dmitry Grinberg, http://dmitry.gr/index.php?r=05.Projects&proj=11.%20Bluetooth%20LE%20fakery
+ *  2013 Florian Echtler, https://github.com/floe/BTLE
+ *  2019 Pawel Hernik, https://github.com/cbm80amiga/BLE_beacon
  */
+
 
 #ifndef _METEOLABBEACON_H_
 #define _METEOLABBEACON_H_
