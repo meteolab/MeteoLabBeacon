@@ -6,7 +6,7 @@ Arduino library for Bluetooth Low Energy (BLE) environmental sensor communicatio
 The library is based on code by
 
  * 2012 Dmitry Grinberg
- * 2013 Florian Echtler
+ * 2013 Florian Echtler https://github.com/floe/BTLE
  * 2019 Pawel Hernik
 
 and licensed under GPLv3 except functions written by Dmitry Grinberg under a separate
