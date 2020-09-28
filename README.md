@@ -5,12 +5,12 @@ Arduino library for Bluetooth Low Energy (BLE) environmental sensor communicatio
 
 The library is based on code by
 
- * 2012 Dmitry Grinberg
+ * 2012 Dmitry Grinberg, http://dmitry.gr/index.php?r=05.Projects&proj=11.%20Bluetooth%20LE%20fakery
  * 2013 Florian Echtler, https://github.com/floe/BTLE
  * 2019 Pawel Hernik, https://github.com/cbm80amiga/BLE_beacon
 
 and licensed under GPLv3 except functions written by Dmitry Grinberg under a separate
-license (see btle.inc file for details).
+license (see link above for details).
 
 You will also need to install the RF24 library installable either from the Arduino IDE or https://github.com/TMRh20/RF24 .
 
