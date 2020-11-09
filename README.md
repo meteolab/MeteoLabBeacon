@@ -12,5 +12,13 @@ The library is based on code by
 and licensed under GPLv3 except functions written by Dmitry Grinberg under a separate
 license (see link above for details).
 
+The simplest BLE temperature beacon consists of an Arduino Nano/Uno/Mega board and a nRF24L01+ radio module. It is also possible to connect sensors:
+* DS18B20 temperatures
+* temperatures/moisture DHT22
+* temperature/humidity/pressure BME280
+
+The measurement data is displayed on your smartphone via Bluetooth using a web application:
+https://app.meteolab.org
+
 <img src="https://www.emetsoc.org/wp-content/uploads/2020/10/2020_peex-edu-app-01-300x201.jpg">
 
