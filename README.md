@@ -12,5 +12,5 @@ The library is based on code by
 and licensed under GPLv3 except functions written by Dmitry Grinberg under a separate
 license (see link above for details).
 
-You will also need to install the RF24 library installable either from the Arduino IDE or https://github.com/TMRh20/RF24 .
+<img src="https://www.emetsoc.org/wp-content/uploads/2020/10/2020_peex-edu-app-01-300x201.jpg">
 
