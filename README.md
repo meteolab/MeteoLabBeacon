@@ -14,7 +14,7 @@ license (see link above for details).
 
 The simplest BLE temperature beacon consists of an Arduino Nano/Uno/Mega board and a nRF24L01+ radio module. It is also possible to connect sensors to measure:
 * temperature DS18B20
-* temperature/moisture DHT22
+* temperature/humidity DHT22
 * temperature/humidity/pressure BME280
 
 The measurement data is displayed on your smartphone using a web application:
