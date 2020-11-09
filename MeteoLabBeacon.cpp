@@ -261,6 +261,25 @@ void MeteoLabBeacon::crc(uint8_t len, uint8_t* dst) {
 }
 
 
+/* Read Atmega328P internal temperature sensor */
+float MeteoLabBeacon::readTemperature() {
+  float b = 125;
+  float a = 9.30;
+  // Read temperature sensor against 1.1V reference
+  ADMUX = _BV(REFS1) | _BV(REFS0) | _BV(MUX3);
+  delay(4);
+  // Start AD conversion
+  ADCSRA |= _BV(ADEN);
+  delay(20);
+  // Start the ADC
+  ADCSRA |= _BV(ADSC);
+  // Detect end-of-conversion
+  while(bit_is_set(ADCSRA,ADSC));
+  // Raw data
+  long raw = ADCL | (ADCH << 8);
+  return (raw - b) / a;
+}
+
 
 /* Power Supply Voltage */
 long MeteoLabBeacon::getVoltage() {

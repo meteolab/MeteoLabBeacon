@@ -100,6 +100,7 @@ class MeteoLabBeacon {
     MeteoLabBeacon( RF24* _radio );
     // convert an arduino float to a nRF_Float
     static nRF_Float to_nRF_Float(float t);
+    float readTemperature();
     static long getVoltage();
     static long getBatteryCapacity(long voltage);
     void begin( const char* _name ); // set BTLE-compatible radio parameters & name
