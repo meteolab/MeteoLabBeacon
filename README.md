@@ -21,4 +21,3 @@ The measurement data is displayed on your smartphone using a web application:
 https://app.meteolab.org
 
 <img src="https://meteolab.org/assets/images/meteolab-app-03.png">
-
