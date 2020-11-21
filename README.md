@@ -20,5 +20,4 @@ The simplest BLE temperature beacon consists of an Arduino Nano/Uno/Mega board a
 The measurement data is displayed on your smartphone using a web application:
 https://app.meteolab.org
 
-<img src="https://www.emetsoc.org/wp-content/uploads/2020/10/2020_peex-edu-app-01-300x201.jpg">
-
+<img src="https://meteolab.org/assets/images/meteolab-app-03.png">
